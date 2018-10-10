@@ -13,7 +13,7 @@ spring:
   datasource:
      type: com.alibaba.druid.pool.DruidDataSource     #当前数据源的类型阿里云的
      driver-class-name: com.mysql.jdbc.Driver       #Mysql的驱动包org.git.mm.mysql.Driver
-     url: jdbc:mysql://192.168.0.118:3306/springcloud         #连接数据库的名称
+     url: jdbc:mysql://172.16.10.110:3306/springcloud         #连接数据库的名称
      username: root
      password: root
      dbcp2:
@@ -53,7 +53,7 @@ spring:
   datasource:
      type: com.alibaba.druid.pool.DruidDataSource     #当前数据源的类型阿里云的
      driver-class-name: com.mysql.jdbc.Driver       #Mysql的驱动包org.git.mm.mysql.Driver
-     url: jdbc:mysql://192.168.0.118:3306/springcloud2         #连接数据库的名称
+     url: jdbc:mysql://172.16.10.110:3306/springcloud2         #连接数据库的名称
      username: root
      password: root
      dbcp2:
